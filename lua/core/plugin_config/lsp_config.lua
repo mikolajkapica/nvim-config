@@ -1,6 +1,10 @@
 require("mason").setup()
 require("mason-lspconfig").setup({
+<<<<<<< HEAD
   ensure_installed = { "lua_ls" }
+=======
+  ensure_installed = { "lua_ls", "java_language_server" }
+>>>>>>> 9fe22d6 (add comment)
 })
 
 local on_attach = function(_, _)
@@ -19,3 +23,11 @@ require("lspconfig").lua_ls.setup{
   on_attach = on_attach,
   capabilities = capabilities,
 }
+<<<<<<< HEAD
+=======
+
+require("lspconfig").java_language_server.setup{
+  on_attach = on_attach,
+  capabilities = capabilities,
+}
+>>>>>>> 9fe22d6 (add comment)

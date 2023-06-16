@@ -124,14 +124,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\GABINET1\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
   },
-<<<<<<< HEAD
-=======
   ["nvim-comment"] = {
     loaded = true,
     path = "C:\\Users\\GABINET1\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-comment",
     url = "https://github.com/terrortylor/nvim-comment"
   },
->>>>>>> 9fe22d6 (add comment)
   ["nvim-lspconfig"] = {
     loaded = true,
     path = "C:\\Users\\GABINET1\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-lspconfig",

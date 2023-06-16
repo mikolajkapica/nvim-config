@@ -39,12 +39,8 @@ return require('packer').startup(function(use)
 
   use 'github/copilot.vim'
 
-<<<<<<< HEAD
-=======
   -- comments
   use 'terrortylor/nvim-comment'
-
->>>>>>> 9fe22d6 (add comment)
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
